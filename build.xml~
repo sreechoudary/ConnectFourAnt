@@ -48,7 +48,7 @@
 
     <target name="sleep">
         <echo message="Sleeping for a while so you can see the build in the new dashboard" />
-        <sleep seconds="60" />
+        <sleep seconds="10" />
     </target>
 
     <target name="test" depends="compile">

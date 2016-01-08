@@ -43,6 +43,7 @@
 
     <target name="compile">
         <mkdir dir="target/classes"/>
+	<mkdir dir="target/javadoc"/>
         <javac srcdir="src" destdir="target/classes"/>
     </target>
 
